@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editkaro.in — Portfolio</title>
+  <meta name="description" content="Editkaro.in — Social Media Marketing & Video Editing Portfolio. Short-form, long-form, gaming, football, eCommerce ads, documentary, color grading, anime, ads.">
+  <meta property="og:title" content="Editkaro.in — Video Editing Portfolio">
+  <meta property="og:description" content="Explore our portfolio of short-form, long-form, gaming, football, eCommerce ads, documentary, color grading, anime, and ads.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://picsum.photos/800/450?random=10">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="glass">
+    <div class="container nav-wrap">
+      <a class="logo" href="#"><span class="logo-badge">EK</span>Editkaro<span class="brand">.in</span></a>
+      <div class="nav-actions">
+        <span class="pill">Social Media & Video Editing</span>
+        <a class="btn" href="#contact">Get a Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container grid">
+      <div class="card glass">
+        <h1 class="hero-title">Scroll-stopping edits. <span class="highlight">Real results.</span></h1>
+        <p class="hero-sub">Portfolio of short-form, long-form, gaming, football, eCommerce ads, documentary, color grading, anime, and ads.</p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn">Explore Portfolio</a>
+        </div>
+        <div class="badge-row">
+          <span class="badge">Hook-first Intros</span>
+          <span class="badge">Beat-sync Cuts</span>
+          <span class="badge">Clean Captions</span>
+          <span class="badge">Color Grade</span>
+        </div>
+      </div>
+      <div class="card glass hero-visual">
+        <div class="orb"></div>
+        <div style="position:absolute; inset:16px; display:grid; grid-template-rows:repeat(3,1fr); gap:10px;">
+          <div class="marquee glass"><div class="marquee-line">Short-form • Gaming • Football • eCommerce • Long-form • 🎞 Color Grade • Anime • Ads</div></div>
+          <div class="marquee glass"><div class="marquee-line reverse">Smooth Transitions • Sound Design • Lower Thirds • Retention Pacing • Platform Formats</div></div>
+          <div class="marquee glass"><div class="marquee-line">YouTube • Instagram • TikTok • Facebook • Amazon • Shorts • Reels</div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="filters">
+    <div class="container bar">
+      <div class="badge-row">
+        <button class="badge category-btn active" data-category="">All</button>
+        <button class="badge category-btn" data-category="short">Short-form</button>
+        <button class="badge category-btn" data-category="long">Long-form</button>
+        <button class="badge category-btn" data-category="gaming">Gaming</button>
+        <button class="badge category-btn" data-category="football">Football</button>
+        <button class="badge category-btn" data-category="ecommerce">eCommerce</button>
+        <button class="badge category-btn" data-category="documentary">Documentary</button>
+        <button class="badge category-btn" data-category="grading">Color Grading</button>
+        <button class="badge category-btn" data-category="anime">Anime</button>
+      </div>
+      <div class="spacer"></div>
+      <label class="search">
+        <input id="search" placeholder="Search titles, tags…" aria-label="Search portfolio">
+      </label>
+      <select id="sort" class="sort" aria-label="Sort portfolio">
+        <option value="new">Newest</option>
+        <option value="old">Oldest</option>
+        <option value="az">A → Z</option>
+        <option value="za">Z → A</option>
+      </select>
+    </div>
+  </div>
+
+  <main id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Featured Work</h2>
+      <div id="grid" class="portfolio-grid">
+
+        <!-- Short-form -->
+        <article class="item" data-category="short" data-title="Short Video" data-date="2025-08-10" data-tags="short,ads,captions,product">
+          <span class="category-label">Short-form</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=11">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- Long-form -->
+        <article class="item" data-category="long" data-title="Long Video" data-date="2025-07-28" data-tags="long,interview,narrative">
+          <span class="category-label">Long-form</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=12">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- Gaming -->
+        <article class="item" data-category="gaming" data-title="Gaming" data-date="2025-08-01" data-tags="gaming,montage,beats,speed ramps">
+          <span class="category-label">Gaming</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=13">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- Football -->
+        <article class="item" data-category="football" data-title="Football" data-date="2025-07-20" data-tags="football,sports,hype,reels">
+          <span class="category-label">Football</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=14">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- eCommerce -->
+        <article class="item" data-category="ecommerce" data-title="eCommerce" data-date="2025-07-05" data-tags="ads,ecommerce,problem agitate solve">
+          <span class="category-label">eCommerce</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=15">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- Documentary -->
+        <article class="item" data-category="documentary" data-title="Documentary" data-date="2025-06-30" data-tags="documentary,broll,interview">
+          <span class="category-label">Documentary</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=16">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- Color Grading -->
+        <article class="item" data-category="grading" data-title="Before → After: Grade Pack" data-date="2025-08-05" data-tags="grading,color,before after">
+          <span class="category-label">Color Grading</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=17">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+        <!-- Anime -->
+        <article class="item" data-category="anime" data-title="AMV — Rising Heat" data-date="2025-07-12" data-tags="anime,amv,sync,transitions">
+          <span class="category-label">Anime</span>
+          <div class="thumb" role="button" tabindex="0" data-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">
+            <video muted loop preload="metadata" loading="lazy" poster="https://picsum.photos/400/225?random=18">
+              <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <section id="contact" class="container">
+    <div class="cta glass">
+      <div style="display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap">
+        <div><h3 style="margin:0 0 4px">Have a project?</h3><p style="margin:0; color:var(--muted)">Share your goals for tailored samples in 24 hours.</p></div>
+        <div>
+          <a class="btn" href="mailto:hello@editkaro.in">Email Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">© <span id="year"></span> Editkaro.in • All rights reserved.</footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Video player">
+    <div class="frame">
+      <video id="player" controls autoplay preload="metadata" aria-label="Portfolio video"></video>
+      <p id="video-error" style="display:none; color:var(--text); text-align:center;">Sorry, this video cannot be played.</p>
+    </div>
+    <button class="close" aria-label="Close video player">✕</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
